@@ -1,0 +1,406 @@
+---
+登录:
+    短信登录:
+    - id
+    - com.ggj.gmj:id/btn_phone_login_go
+    输入手机号码:
+    - id
+    - com.ggj.gmj:id/edt_login_phone
+    输入短信验证码:
+    - id
+    - com.ggj.gmj:id/edt_login_code
+    登录按钮:
+    - id
+    - com.ggj.gmj:id/btn_login_go
+    首页:
+    - id
+    - com.ggj.gmj:id/tabMian_tab_indexImg
+首页-今日热卖:
+    滚动栏:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/my_recycler_view"]/android.widget.FrameLayout[1]
+    滚动栏返回:
+    - id
+    - com.ggj.gmj:id/backView
+    签到领钱:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/my_recycler_view"]/android.widget.FrameLayout[2]/android.widget.ImageView[1]
+    立即签到:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/view_customevent_refresh"]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[2]/android.widget.Button[1]
+    签到页面返回:
+    - id
+    - com.ggj.gmj:id/backView
+    热卖榜单:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/my_recycler_view"]/android.widget.FrameLayout[3]/android.widget.ImageView[1]
+    热卖榜单返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/backView"]
+    升级会员:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/my_recycler_view"]/android.widget.FrameLayout[4]
+    升级会员返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/backView"]
+    新人专享:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/my_recycler_view"]/android.widget.FrameLayout[5]
+    新人专享返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/backView"]
+    增值服务:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/my_recycler_view"]/android.widget.FrameLayout[6]
+    增值服务页面返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/backView"]
+    正在疯抢:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/my_recycler_view"]/android.widget.FrameLayout[2]
+    商品详情页返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/iv_title_back"]
+首页:
+    会员PLUS:
+    - xpath
+    - //*[@text="会员PLUS"]
+    会员plus:
+    - xpath
+    - //*[@resource-id="cms-33286"]/android.widget.ListView[1]/android.view.View[2]
+    美妆个护:
+    - xpath
+    - //*[@text="美妆个护"]
+    全球美食:
+    - xpath
+    - //*[@text="全球美食"]
+    家居百货:
+    - xpath
+    - //*[@text="家居百货"]
+    轻奢名品:
+    - xpath
+    - //*[@text="轻奢名品"]
+    全球母婴:
+    - xpath
+    - //*[@text="全球母婴"]
+    滋补保健:
+    - xpath
+    - //*[@text="滋补保健"]
+    服饰鞋包:
+    - xpath
+    - //*[@text="服饰鞋包"]
+    旅游出行:
+    - xpath
+    - //*[@text="旅游出行"]
+    贵必赔:
+    - xpath
+    - //*[@text="贵必赔"]
+分类:
+    分类分类:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/tabMian_tab_cateImg"]
+    护肤彩妆-热销面膜:
+    - xpath
+    - //*[@text="热销面膜"]
+    护肤彩妆-基础护肤:
+    - xpath
+    - //*[@text="基础护肤"]
+    护肤彩妆-卸妆清洁:
+    - xpath
+    - //*[@text="卸妆清洁"]
+    护肤彩妆-套装礼盒:
+    - xpath
+    - //*[@text="套装礼盒"]
+    护肤彩妆-眼部护理:
+    - xpath
+    - //*[@text="眼部护理"]
+    护肤彩妆-明星抗衰:
+    - xpath
+    - //*[@text="明星抗衰"]
+    护肤彩妆-人气彩妆:
+    - xpath
+    - //*[@text="人气彩妆"]
+    护肤彩妆-修容底妆:
+    - xpath
+    - //*[@text="修容底妆"]
+    护肤彩妆-香氛护理:
+    - xpath
+    - //*[@text="香氛护理"]
+    护肤彩妆-返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/iv_mall_back"]
+    百货家电:
+    - xpath
+    - //*[@text="百货家电"]
+    百货家电-纸品湿巾:
+    - xpath
+    - //*[@text="纸品湿巾"]
+    百货家电-清洁用品:
+    - xpath
+    - //*[@text="清洁用品"]
+    百货家电-返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/iv_mall_back"]
+    营养保健:
+    - xpath
+    - //*[@text="营养保健"]
+    营养保健-美容养颜:
+    - xpath
+    - //*[@text="美容养颜"]
+    营养保健-排毒瘦身:
+    - xpath
+    - //*[@text="排毒瘦身"]
+    营养保健-返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/iv_mall_back"]
+    全球美食:
+    - xpath
+    - //*[@text="全球美食"]
+    全球美食-休闲零食:
+    - xpath
+    - //*[@text="休闲零食"]
+    全球美食-水果生鲜:
+    - xpath
+    - //*[@text="水果生鲜"]
+    全球美食-返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/iv_mall_back"]
+    母婴健康:
+    - xpath
+    - //*[@text="母婴健康"]
+    母婴健康-纸尿裤:
+    - xpath
+    - //*[@text="纸尿裤"]
+    母婴健康-奶粉:
+    - xpath
+    - //*[@text="奶粉"]
+    母婴健康-返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/iv_mall_back"]
+    个护清洁:
+    - xpath
+    - //*[@text="个护清洁"]
+    个护清洁-洗发护发:
+    - xpath
+    - //*[@text="洗发护发"]
+    个护清洁-身体沐浴:
+    - xpath
+    - //*[@text="身体沐浴"]
+    个护清洁-返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/iv_mall_back"]
+    服饰箱包:
+    - xpath
+    - //*[@text="服饰箱包"]
+    服饰箱包-女装:
+    - xpath
+    - //*[@text="女装"]
+    服饰箱包-男装:
+    - xpath
+    - //*[@text="男装"]
+    服饰箱包-返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/iv_mall_back"]
+蜂巢:
+    进入蜂巢页:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/tabMian_tab_feedImg"]
+    商学院:
+    - xpath
+    - //*[@text="商学院"]
+购物车:
+    进入购物车页:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/tabMian_tab_CartImg"]
+    去逛逛:
+    - id
+    - com.ggj.gmj:id/cartErr_go
+    去结算:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/cart_order"]
+    提交订单:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/orderFooter_pay"]
+    更多:
+    - id
+    - com.ggj.gmj:id/iv_cart_voucher
+    领券:
+    - id
+    - com.ggj.gmj:id/tv_coupon
+    领券返回:
+    - id
+    - com.ggj.gmj:id/backView
+    分享:
+    - id
+    - com.ggj.gmj:id/tv_share
+    为您推荐:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/rv_recommend"]/android.widget.LinearLayout[2]/android.widget.FrameLayout[1]
+    推荐商品详情页返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/iv_title_back"]
+我的:
+    我的:
+    - id
+    - com.ggj.gmj:id/tabMian_tab_userLayout
+    消息:
+    - id
+    - com.ggj.gmj:id/iv_message
+    消息页返回:
+    - id
+    - com.ggj.gmj:id/fl_top_bar_left_container
+    个人资料:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/iv_normal_user_head"]
+    个人资料返回:
+    - id
+    - com.ggj.gmj:id/fl_top_bar_left_container
+    脉宝尊享会员:
+    - xpath
+#    - //*[@resource-id="com.ggj.gmj:id/iv_my_mid"]
+    - //*[@text="我的权益"]
+    脉宝尊享会员页面返回:
+    - id
+    - com.ggj.gmj:id/iv_back
+    我的收益:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/ll_mid_vip"]/android.widget.ImageView[1]
+    我的收益返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/cash_manger_top_back"]
+    邀请好友:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/ll_mid_vip"]/android.widget.ImageView[2]
+    取消分享:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/share_cancel"]
+    分享礼包:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/ll_mid_vip"]/android.widget.ImageView[3]
+    分享礼包返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/backView"]
+    会员首选:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/ll_mid_vip"]/android.widget.ImageView[4]
+    会员首选返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/backView"]
+
+    足迹:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/ll_track"]
+    足迹返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/iv_back"]
+    领券中心:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/ll_coupon_center"]
+    领券中心返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/backView"]
+    优惠券:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/ll_coupon"]
+    优惠券返回:
+    - xpath
+    - //*[@resource-id="com.ggj.gmj:id/fl_top_bar_left_container"]
+    我的订单:
+    - xpath
+    - //*[@text="全部订单"]
+    我的订单返回:
+    - id
+    - com.ggj.gmj:id/fl_top_bar_left_container
+    代付款:
+    - id
+    - com.ggj.gmj:id/rll_not_pay
+    待发货:
+    - id
+    - com.ggj.gmj:id/rll_wait_deliver
+    待收款:
+    - id
+    - com.ggj.gmj:id/rll_take_deliver
+    交易完成:
+    - id
+    - com.ggj.gmj:id/rll_trade_success
+    退款货:
+    - id
+    - com.ggj.gmj:id/rll_refund
+    签到领钱:
+    - xpath
+    - //*[@text="签到领钱"]
+    签到领钱返回:
+    - id
+    - com.ggj.gmj:id/backView
+    充值中心:
+    - xpath
+    - //*[@text="充值中心"]
+    充值中心返回:
+    - id
+    - com.ggj.gmj:id/backView
+    收货地址:
+    - xpath
+    - //*[@text="收货地址"]
+    收货地址返回:
+    - id
+    - com.ggj.gmj:id/fl_top_bar_left_container
+    帮助与客服:
+    - xpath
+    - //*[@text="帮助与客服"]
+    帮助与客服返回:
+    - id
+    - com.ggj.gmj:id/fl_top_bar_left_container
+    售后规则:
+    - xpath
+    - //*[@text="售后规则"]
+    售后规则返回:
+    - id
+    - com.ggj.gmj:id/backView
+    扫一扫:
+    - xpath
+    - //*[@text="扫一扫"]
+    始终允许相机权限:
+    - id
+    - com.android.packageinstaller:id/permission_allow_button
+    扫一扫返回:
+    - id
+    - com.ggj.gmj:id/iv_arrow
+    系统设置:
+    - xpath
+    - //*[@text="系统设置"]
+    系统设置返回:
+    - id
+    - com.ggj.gmj:id/fl_top_bar_left_container
+消息:
+    首页消息:
+    - id
+    - com.ggj.gmj:id/iv_message
+    查看奖励消息:
+    - id
+    - com.ggj.gmj:id/rl_reward_notice
+    消息返回:
+    - id
+    - com.ggj.gmj:id/fl_top_bar_left_container
+    查看店铺访问消息:
+    - id
+    - com.ggj.gmj:id/rl_visitor_notice
+    查看系统消息:
+    - id
+    - com.ggj.gmj:id/system_notice
+    查看客服消息:
+    - id
+    - com.ggj.gmj:id/rl_cs_notice
+    客服消息返回:
+    - id
+    - com.ggj.gmj:id/left_image
+    查看物流消息:
+    - id
+    - com.ggj.gmj:id/rl_logistics_notice
+
+搜索:
+    首页搜索:
+    - id
+    - com.ggj.gmj:id/tv_search
+    搜索页面搜索:
+    - id
+    - com.ggj.gmj:id/et_search_content
